@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.title("My Personal Portfolio")
+    st.title("Ravinder Gulla's Portfolio")
     st.write("Welcome to my portfolio web app! Here, you can learn more about me and my projects.")
 
     # About Me section
@@ -13,14 +13,14 @@ def main():
 
     project1 = {
         "name": "Project 1",
-        "description": "Description of Project 1.",
-        "link": "https://github.com/your_username/project1"
+        "description": "Description of Techin510 Lab 1.",
+        "link": "https://github.com/rgulla16/Techin510"
     }
 
     project2 = {
         "name": "Project 2",
-        "description": "Description of Project 2.",
-        "link": "https://github.com/your_username/project2"
+        "description": "Description of Techin510 Lab 2.",
+        "link": "https://github.com/rgulla16/Techin510"
     }
 
     display_project(project1)
@@ -28,7 +28,7 @@ def main():
 
     # Contact Me section
     st.header("Contact Me")
-    st.write("Feel free to reach out to me via email: your.email@example.com")
+    st.write("Feel free to reach out to me via email: rgulla@uw.edu")
 
 def display_project(project):
     st.subheader(project["name"])
